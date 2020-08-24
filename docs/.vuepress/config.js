@@ -1,5 +1,6 @@
 module.exports = {
   title: 'ACOLASIA',
+
   themeConfig: {
     logo: '/assets/img/logo.jpg',
     nav: [
