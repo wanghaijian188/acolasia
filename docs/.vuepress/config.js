@@ -6,6 +6,7 @@ module.exports = {
       { text: 'css', link: '/css/style' },
       { text: 'js', link: '/js/about' },
       { text: 'Vue', link: '/vue/vue' },
+      { text: 'git', link: '/git/git' },
       { text: 'GtHub', link: 'https://github.com/WangHaijian180/acolasia' },
     ]
   }
