@@ -2,11 +2,9 @@
 sidebar: auto
 ---
 
+# Vue
 
-## vue
-``` js
-export default {
-  name: 'MyComponent',
-  // ...
-}
-```
+## 生命周期
+
+### .stop
+
