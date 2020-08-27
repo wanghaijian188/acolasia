@@ -18,9 +18,9 @@ module.exports = {
     lastUpdated: '更新时间',
     nav: [
       { text: 'css', link: '/css/style' },
-      { text: 'js', link: '/js/about' },
+      { text: 'js', items: [{ text: 'javaScript', link: '/js/about' }] },
       { text: 'Vue', link: '/vue/vue' },
-      { text: '其他', items: [{ text: 'vueCLI', link: '/vue/vueCLI' },{ text: 'git', link: '/git/git' },{text:'Moment',link:'http://momentjs.cn'}] },
+      { text: '其他', items: [{ text: 'vueCLI', link: '/vue/vueCLI' }, { text: 'git', link: '/git/git' }, { text: 'Moment', link: 'http://momentjs.cn' }] },
       { text: 'GtHub', link: 'https://github.com/WangHaijian180/acolasia' },
     ]
   },
