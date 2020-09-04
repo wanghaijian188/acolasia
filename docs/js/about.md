@@ -60,3 +60,28 @@ arr.reduce((sum, item) => sum + item, 0)
 // 反方向
 arr.reduceRight(() => {})
 ```
+
+## 排序
+
+### sort
+
+```js
+
+var arr = [
+{name:'qw',age:0},
+{name:'we',age:18},
+{name:'er',age:8}
+];
+
+arr.sort(compare('age'))
+
+//  b-a 降序  a-b 升序
+function compare(age){
+  returm function(a.b){
+    var a = a[age];
+    var b = a[age];
+    return b -a ;
+  }
+}
+
+```
