@@ -4,6 +4,13 @@ sidebar: auto
 
 # Vue
 
+``` js
+//开发环境版本
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+//生产环境版本
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+```
+
 ## 生命周期
 
 ### beforeCreate

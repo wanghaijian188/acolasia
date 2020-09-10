@@ -21,7 +21,8 @@ module.exports = {
       { text: 'js', items: [{ text: 'javaScript', link: '/js/about' }, { text: '时间', link: '/date/date' }] },
       { text: 'Vue', link: '/vue/vue' },
       { text: '后端', items: [{ text: 'java', link: '/java/java' }] },
-      { text: '其他', items: [{ text: 'vueCLI', link: '/vue/vueCLI' }, { text: 'git', link: '/git/git' }, { text: 'gspa', link: 'https://greensock.com/' }, { text: 'Moment', link: 'http://momentjs.cn' }] },
+      { text: '数据库', link: '/vue/vue' },
+      { text: '其它', items: [{ text: 'vueCLI', link: '/vue/vueCLI' }, { text: '微信小程序', link: '/wx/wx' }, { text: 'git', link: '/git/git' }, { text: 'gspa', link: 'https://greensock.com/' }, { text: 'Moment', link: 'http://momentjs.cn' }] },
       { text: 'GtHub', link: 'https://github.com/WangHaijian180/acolasia' },
     ]
   },
