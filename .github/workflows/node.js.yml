@@ -7,31 +7,22 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+ build-deploy:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x]
-
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: npm run build --if-present
-    - run: npm test
-      env:
-        CI: true
-    - name: Deploy
-      uses: easingthemes/ssh-deploy@v2.0.7
+    - run: npm run docs:build
+  
+    - name: Deploy mybells.github.io/master
+      uses: peaceiris/actions-gh-pages@v2
       env:
         SSH_PRIVATE_KEY: ${{ secrets.ALIYUN }}
         ARGS: "-rltgoDzvO --delete"
-        SOURCE: "dist/"
         REMOTE_HOST: "139.196.49.192"
         REMOTE_USER: "root"
         TARGET: "/www/wwwroot/acolasia/" 
