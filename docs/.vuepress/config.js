@@ -18,10 +18,18 @@ module.exports = {
     lastUpdated: '更新时间',
     nav: [
       { text: 'css', link: '/css/style' },
-      { text: 'js', link: '/js/about' },
+      { text: 'js', items: [{ text: 'javaScript', link: '/js/about' }, { text: '时间', link: '/date/date' }] },
       { text: 'Vue', link: '/vue/vue' },
-      { text: '其他', items: [{ text: 'vueCLI', link: '/vue/vueCLI' },{ text: 'git', link: '/git/git' },{text:'Moment',link:'http://momentjs.cn'}] },
+      { text: '后端', items: [{ text: 'java', link: '/java/java' }] },
+      { text: '数据库', link: '/vue/vue' },
+      { text: '其它', items: [{ text: 'vueCLI', link: '/vue/vueCLI' }, { text: '宝典', link: '/bible/vue' }, { text: '微信小程序', link: '/wx/wx' }, { text: 'git', link: '/git/git' }, { text: 'gspa', link: 'https://greensock.com/' }, { text: 'Moment', link: 'http://momentjs.cn' }] },
       { text: 'GtHub', link: 'https://github.com/WangHaijian180/acolasia' },
+    ],
+    sidebar: [
+      'bible/vue',
+      'bible/js',
+      'bible/css',
+      'bible/Statuscode'
     ]
   },
 
