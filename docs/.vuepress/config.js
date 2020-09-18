@@ -29,7 +29,9 @@ module.exports = {
       'bible/vue',
       'bible/js',
       'bible/css',
-      'bible/Statuscode'
+      'bible/ajax',
+      'bible/Statuscode',
+      'bible/Other'
     ]
   },
 
