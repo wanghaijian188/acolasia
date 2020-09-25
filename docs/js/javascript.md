@@ -1,9 +1,3 @@
----
-sidebar: auto
----
-
-
-# javascript
 
 ## 查询
 ### indexOf()
