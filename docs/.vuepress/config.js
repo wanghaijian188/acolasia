@@ -37,6 +37,7 @@ module.exports = {
       '/js/': [
         'js',
         'Stringmethod',
+        'ArrayMethod',
         'date',
         'javascript'
       ]
