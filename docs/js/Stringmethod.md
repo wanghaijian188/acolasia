@@ -93,3 +93,31 @@ var text2 = text1.toUpperCase();  // text2 是被转换为大写的 text1
 var text1 = "Hello World!";       // 字符串
 var text2 = text1.toLowerCase();  // text2 是被转换为小写的 text1
 ```
+<!-- 链接字符串 -->
+## 链接字符串
+### concat()
+```js
+var text1 = "Hello";
+var text2 = "World";
+text3 = text1.concat(" ",text2);
+// hello World
+``` 
+<!-- 删出字符串空格 -->
+## 删出字符串空格
+### trim()
+```js
+var str = "       Hello World!        ";
+alert(str.trim());
+//Hello World! 
+```
+
+<!-- 字符串转换数组 -->
+## 字符串转换数组
+### split()
+
+```js
+var txt = "a,b,c,d,e";   // 字符串
+txt.split(",");          // 用逗号分隔
+txt.split(" ");          // 用空格分隔
+txt.split("|");          // 用竖线分隔
+```
