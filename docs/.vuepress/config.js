@@ -37,7 +37,8 @@ module.exports = {
       '/js/': [
         'js',
         'Stringmethod',
-        'date'
+        'date',
+        'javascript'
       ]
     }
   },

@@ -1,3 +1,6 @@
+---
+title: javascript
+---
 
 ## 查询
 ### indexOf()

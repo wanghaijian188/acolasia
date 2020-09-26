@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.0.0-rc.1"
+    "vuepress": "^1.6.0"
   },
   "dependencies": {
     "moment": "^2.27.0",
