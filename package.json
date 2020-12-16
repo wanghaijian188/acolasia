@@ -1,7 +1,6 @@
 {
   "name": "acolasia",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -16,5 +15,17 @@
   "dependencies": {
     "moment": "^2.27.0",
     "yarn": "^1.22.4"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanghaijian188/acolasia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wanghaijian188/acolasia/issues"
+  },
+  "homepage": "https://github.com/wanghaijian188/acolasia#readme",
+  "description": ""
 }
