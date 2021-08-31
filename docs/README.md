@@ -12,6 +12,6 @@ features:
   details: 你起不来的早晨有人能起,你吃不了的苦有人能吃,总有人要赢,为什么不是你?
 - title: 
   details:  yarn deploy 或npm run deploy提交。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: MIT许可|版权所有©2018
 ---
 
